@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Run Docker Container') {
             steps {
-                bat 'docker run -d -p 8091:80 web-image-app'
+                bat 'docker run -d -p 8090:80 web-image-app'
             }
         }
     }
